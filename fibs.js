@@ -24,3 +24,5 @@ function fibsRec(n) {
   const prev = fibsRec(n - 1);
   return [...prev, prev[prev.length - 1] + prev[prev.length - 2]];
 }
+
+console.log(fibsRec(8));
